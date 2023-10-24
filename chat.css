@@ -1,0 +1,168 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 185, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.box {
+    top: 30px;
+    width: 80%;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.leftSide {
+    flex: 1;
+    height: 500px;
+    background-color: rgb(137, 240, 192);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightSide {
+    flex: 2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid white;
+    height: 500px;
+}
+
+.nav_rightSide {
+    background-color: rgb(137, 240, 192);
+    width: 100%;
+    border-top-right-radius: 15px;
+    display: flex;
+    height: 50px;
+    border-left: 2px solid white;
+}
+
+.boxMessaggi {
+    flex: 5;
+    background-color: rgb(236, 233, 228);
+    border-left: 2px solid white;
+}
+
+.boxScrivi {
+    height: 70px;
+    display: flex;
+    border-bottom-right-radius: 15px;
+
+}
+
+.imgUser {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.Text_nav {
+    padding-left: 10px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Nav_Right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.mexLeftside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.mexLeftside:hover {
+    background-color: rgb(201, 196, 196);
+}
+
+.boxMessaggi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Mex1 {
+    flex: 0.5;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 8px;
+}
+
+.Mex2 {
+    flex: 0.5;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin: 8px;
+    background-color: rgb(137, 240, 192);
+}
+
+.Mex3 {
+    flex: 0.5;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: flex-end;
+    margin: 8px;
+    background-color: white;
+}
+
+.icon {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.areaText {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSend {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
